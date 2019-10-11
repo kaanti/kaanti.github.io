@@ -24,6 +24,10 @@ h1 {
     color: #586e75;
 }
 
+a {
+    color: inherit;
+}
+
 .hello {
     height: 8em;
 
