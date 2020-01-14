@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     This is the Home page.
   </div>
 </template>
@@ -9,3 +9,6 @@
     name: 'Home'
   }
 </script>
+
+<style lang="stylus" src="./Home.styl">
+</style>
