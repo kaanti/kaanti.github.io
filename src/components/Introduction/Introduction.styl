@@ -1,0 +1,37 @@
+@import "~@/styles/constants.styl"
+
+.introduction
+  position relative
+
+  text-align center
+
+  h1
+    font-family "Playfair Display", serif
+
+    line-height 1
+
+    margin $space-smallest 0
+
+  p
+    margin $space-smallest 0
+
+  .background
+    color $color-grey2
+
+    pointer-events none
+    user-select none
+
+    h1
+      font-size 16rem
+
+  .foreground
+    position absolute
+    top 50%
+    left 50%
+
+    width 100%
+
+    transform translate(-50%, -50%)
+
+    h1
+      font-size $size-h1
