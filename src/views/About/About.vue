@@ -10,5 +10,5 @@
   }
 </script>
 
-<style lang="stylus" src="./About.styl">
+<style scoped lang="stylus" src="./About.styl">
 </style>

@@ -1,10 +1,13 @@
 <template>
   <button type="button" class="button">
-    <div class="image" v-if="$slots.image">
-      <slot name="image"/>
+    <div class="left addon" v-if="$slots.addonLeft">
+      <slot name="addonLeft"/>
     </div>
     <div class="content">
       <slot/>
+    </div>
+    <div class="right addon" v-if="$slots.addonRight">
+      <slot name="addonRight"/>
     </div>
   </button>
 </template>

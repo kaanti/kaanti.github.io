@@ -1,0 +1,32 @@
+@import "~@/styles/constants.styl"
+@import "~@/styles/media.styl"
+
+.services
+  text-align center
+
+  .textbox
+    margin-left auto
+    margin-right auto
+
+  .carousel-cell
+    box-sizing border-box
+
+    +tablet-portrait-down()
+      width 66%
+
+    +tablet-landscape-only()
+      width 50%
+
+    +desktop-up()
+      width 30%
+
+    padding $space-normal
+
+    transform scale(0.95)
+
+    transition-property transform
+    transition-duration $duration-short
+
+    &.is-selected
+      transform scale(1)
+

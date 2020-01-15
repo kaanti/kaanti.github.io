@@ -1,0 +1,28 @@
+@import "~@/styles/constants.styl"
+
+.button
+  display inline-flex
+  flex-direction row
+  align-items center
+
+  color white
+  font-family $font-base
+
+  background-color black
+
+  cursor pointer
+
+  padding 0
+
+  border none
+  border-radius $space-small
+  overflow hidden
+
+  transition-property background-color
+  transition-duration $duration-short
+
+  .content
+    padding 0 $space-small
+
+  &:hover
+    background-color $color-accent

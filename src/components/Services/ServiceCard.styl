@@ -1,0 +1,19 @@
+@import "~@/styles/constants.styl"
+
+.service-card
+  text-align center
+
+  box-sizing border-box
+  height 15em
+
+  padding $space-normal
+
+  .representation
+    height 3em
+
+    filter grayscale(1.0)
+
+.is-selected
+  .service-card
+    .representation
+      filter none

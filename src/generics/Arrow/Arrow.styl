@@ -1,0 +1,35 @@
+@import "~@/styles/constants.styl"
+
+swipe(xfrom=0, xmid=0, xto=0, yfrom=0, ymid=0, yto=0)
+  animation-name swipe
+  animation-timing-function linear
+  animation-iteration-count infinite
+
+  @keyframes swipe
+    0%
+      transform translate(xfrom, yfrom)
+      opacity 0
+
+    50%
+      transform translate(xmid, ymid)
+      opacity 1
+
+    100%
+      transform translate(xto, yto)
+      opacity 0
+
+.arrow
+  display inline-flex
+
+  height 1.25em
+  width 1.25em
+
+  align-items center
+  justify-content center
+
+  .icon
+    swipe(-50%, 0, 50%, 0, 0, 0)
+    animation-duration $duration-normal
+
+    &.first
+      animation-delay '-%s' % $duration-short

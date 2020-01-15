@@ -1,7 +1,7 @@
 <template>
   <div class="introduction">
     <div class="background">
-      <h1>KB</h1>
+      <span class="watermark">KB</span>
     </div>
     <div class="foreground">
       <h1>Kanti Bhanushali</h1>

@@ -6,8 +6,6 @@
   </div>
 </template>
 
-<style lang="stylus" src="./App.styl">
-</style>
 <script>
   import Navigation from '@/components/Navigation/Navigation'
 
@@ -18,3 +16,6 @@
     }
   }
 </script>
+
+<style lang="stylus" src="./App.styl">
+</style>
