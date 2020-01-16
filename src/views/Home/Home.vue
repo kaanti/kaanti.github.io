@@ -3,18 +3,20 @@
     <section>
       <main>
         <Introduction/>
-        <Button title="Schedule a consultation">
-          <template #addonLeft>
-            <img
-              class="profile"
-              src="@/assets/profile.jpg"
-              alt="Kanti Bhanushali"/>
-          </template>
-          Book a discovery call
-          <template #addonRight>
-            <Arrow/>
-          </template>
-        </Button>
+        <RouterLink :to="{name: 'consultation'}">
+          <Button title="Schedule a consultation">
+            <template #addonLeft>
+              <img
+                class="profile"
+                src="@/assets/profile.jpg"
+                alt="Kanti Bhanushali"/>
+            </template>
+            Book a discovery call
+            <template #addonRight>
+              <Arrow/>
+            </template>
+          </Button>
+        </RouterLink>
       </main>
     </section>
 
