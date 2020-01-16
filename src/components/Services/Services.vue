@@ -1,11 +1,10 @@
 <template>
   <div class="services">
-    <h3>Services</h3>
-    <p class="textbox">
+    <Hero title="Services">
       My quality services are designed to help people with their personal,
       business, and financial goals by making available economical, value-added
       and timely protection options.
-    </p>
+    </Hero>
 
     <Flickity
       ref="flickity"
@@ -60,12 +59,14 @@
   import Flickity from 'vue-flickity'
 
   import ServiceCard from '@/components/Services/ServiceCard'
+  import Hero from '@/components/Hero/Hero'
 
   export default {
     name: 'Services',
     components: {
       Flickity,
 
+      Hero,
       ServiceCard
     },
     data: () => ({

@@ -1,0 +1,30 @@
+@import "~@/styles/page.styl"
+@import "~@/styles/grid.styl"
+
+#consultation
+  section
+    page()
+
+    display flex
+    flex-direction column
+    justify-content center
+
+    main
+      text-align center
+
+    .form
+      background white
+
+      box-sizing border-box
+      width 100%
+      max-width 720px
+      height 'calc(100% - 2 * %s)' % $space-normal
+
+      border 2px dashed $color-grey2
+      border-radius $space-small
+      overflow hidden
+
+      margin -20em auto 0 auto
+
+    &:nth-of-type(2)
+      height calc(100vh - 20em)

@@ -1,0 +1,27 @@
+@import "~@/styles/constants.styl"
+@import "~@/styles/grid.styl"
+
+.contact
+  .grid
+    grid()
+
+    box-sizing border-box
+    padding $space-normal
+
+    .cell
+      cell()
+
+      text-align left
+
+      .card
+        background-color white
+
+        height 100%
+
+        .map
+          width 'calc(100% + 2 * %s)' % $space-normal
+          height 15em
+
+          border none
+
+          margin-left '-%s' % $space-normal
