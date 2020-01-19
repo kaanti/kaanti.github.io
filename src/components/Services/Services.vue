@@ -18,6 +18,20 @@
       </div>
       <div class="carousel-cell">
         <ServiceCard
+          source="treatment"
+          title="Critical illness insurance">
+          Prevent critical illness from taking a toll on your family's savings.
+        </ServiceCard>
+      </div>
+      <div class="carousel-cell">
+        <ServiceCard
+          source="staff"
+          title="Bussiness succession planning">
+          Continue your business' success by appointing the right successor.
+        </ServiceCard>
+      </div>
+      <div class="carousel-cell">
+        <ServiceCard
           source="elderly"
           title="Retirement planning">
           Invest wisely now to enjoy the golden years of your life worry-free.
